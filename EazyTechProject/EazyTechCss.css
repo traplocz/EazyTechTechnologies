@@ -3,32 +3,5 @@ body {
     background-image: url(https://i.ibb.co/yh2CkrZ/comp-logo.jpg);
     background-repeat: repeat-x;
     font-family : Arial;
-    font-size : 1rem;
-    display: grid;
-    grid-template-areas: none;
-}
-
-.header {
-    width: 50%;
-
-}
-
-.header__logo1 {
-    width: 50rem;
-    margin: auto;
-}
-
-.header__logo2 {
-    width: 50rem;
-    margin: auto;
-}
-
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.main {
-    width: 80%;
+    font-size : 16px;
 }
