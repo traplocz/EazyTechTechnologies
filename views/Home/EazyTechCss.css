@@ -2,6 +2,26 @@ body {
     background-color: rgb(164,160,160);
     background-image: url(https://i.ibb.co/yh2CkrZ/comp-logo.jpg);
     background-repeat: repeat-x;
-    font-family : Arial;
+    font-family : arial;
     font-size : 16px;
+}
+
+.navbar-left {
+    display: grid;
+    grid-template-columns: 1px;
+    grid-template-rows: minmax(100px, 1fr);
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: auto;
+}
+
+.main-middle {
+    grid-auto-rows: auto;
+}
+
+.main-middle__about-paragraph {
+    background-color: rgb(255, 255, 204);
 }
