@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazytech Technologies | Making technology eazy</title>
+    <link rel="stylesheet" href="EazyTechCss.css">
+</head>
+
+<body>
+        <nav class="navbar-left">
+            <a class="navbar-left--home" href="#">Home</a>
+            <a class="navbar-left--about" href="#">About Us</a>
+            <a class="navbar-left--serv" href="#">Services</a>
+            <a class="navbar-left--port" href="#">Portfolio</a>
+            <a class="navbar-left--test" href="#">Testimonials</a>
+            <a class="navbar-left--con" href="#">Contact Us</a>
+            <a class="navbar-left--loc" href="#">Location</a>
+            <a class="navbar-left--faq" href="#">FAQ</a>
+                <p class="navbar-left__contact-email">E-Mail:<br>
+                    info@eazytechtechnologies.co.ke  
+                </p>
+                <p class="navbar-left__contact-mobile">Mobile:<br>
+                    +254 722 324 370<br>
+                    +254 723 462 989
+                </p>
+        </nav>
+        <header class="header-top">
+            <img class="header-top--image1"width="700px" height="85px" src="https://i.ibb.co/Bz5p3hj/Logo-1.jpg" alt="EazyTech Technologies logo">
+            <img width="760px" height="140px" src="https://i.ibb.co/WK8G39f/Welcome-NBanner.jpg" alt="Weclome banner">
+        </header>
+        <main class="main-middle">
+            <div class="main-middle__images">
+            <img width="224px" height="181px" src="https://i.ibb.co/86WhZVp/computer-network-networking-austin.jpg" alt="Image of web router network">
+            <img width="224px" height="181px" src="https://i.ibb.co/0JQBXyb/images.jpg" alt="Image of network wiring to a server">
+            <img width="224px" height="181px" src="https://i.ibb.co/C57s3zW/images-2.jpg" alt="Image of a tshirt">
+            </div>
+
+            <p class="main-middle__about-text">Eazytech Technologies has been in business since the year 2010. We specialize in Information Technology <strong>Service, support, Sales</strong> and <strong>Consultancy</strong>.
+                Our staff offers quality and reliable services you can count on. 
+                In addition, our friendly and professional staff is here to answer any questions you may have about our company or our services.
+                <br>
+                <br>
+                At Eazytech Technologies, our goal is to provide you with courteous, expedient, professional service of the highest caliber.
+                <br>
+                <br>
+                Browse our Web site for more information on Our services on the <a href="#">Services Tab.</a>
+                <br>
+                <br>
+                If you have any questions or would like to speak with a Eazytech Technologies representative regarding our Services and/or Products, 
+                please e-mail us at info@eazytechtechnologies.co.ke or call us at +254 722 324 370.
+                <br>
+                <br>
+                At Eazytech Technologies, the customer always comes first.
+                <img width="250px" height="200px" src="https://i.ibb.co/cQ5fXfF/download-3.jpg" alt="download-3">
+            </p>
+        </main>
+        <footer class="footer-bottom">
+            <a href="#">Home</a> |
+            <a href="#">About Us</a> |
+            <a href="#">Services</a> |
+            <a href="#">Portfolio</a> |
+            <a href="#">Testimonials</a> |
+            <a href="#">Contact Us</a> |
+            <a href="#">FAQ</a>
+        </footer>
+</body>
+</html>
