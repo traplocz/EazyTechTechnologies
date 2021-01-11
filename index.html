@@ -5,6 +5,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eazytech Technologies | Making technology eazy</title>
     <link rel="stylesheet" href="EazyTechCss.css">
+ <style>
+     * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(164,160,160);
+    background-image: url(https://i.ibb.co/yh2CkrZ/comp-logo.jpg);
+    background-repeat: repeat-x;
+    font-family: arial;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: [left] 250px [middle] auto [right] 500px;
+    grid-template-rows: 20px 280px auto auto;
+}
+
+.header-top {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 50px;
+}
+
+.header-top--image1 {
+    margin-left: 30px;
+}
+
+.main-middle {
+   grid-column: 2;
+   grid-row: 3;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto auto auto;
+   column-gap: 50px;
+}
+
+.main-middle__images {
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: space-evenly;
+}
+
+.main-middle__about-text {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(255, 255, 204);
+}
+
+.footer-bottom {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+/* CSS Gradient provided by: https://cssgradient.io */
+.navbar-left {
+    grid-column: 1;
+    grid-row: 1;
+    display: inline-grid;
+    text-align: center;
+    grid-template-columns: [left] 20px [center] 150px [right] 20px;
+    grid-template-rows: 200px;
+    row-gap: 3px;
+    justify-content: space-around;
+}
+
+.navbar-left a:hover {
+    color: #0d0d0d;
+    transition: box-shadow .1s;
+    box-shadow: 0 0 10px;
+    background:rgb(128, 128, 128);
+}
+
+.navbar-left--home {
+    grid-column: 2;
+    grid-row: 2;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--about {
+    grid-column: 2;
+    grid-row: 3;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--serv {
+    grid-column: 2;
+    grid-row: 4;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--port {
+    grid-column: 2;
+    grid-row: 5;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--test {
+    grid-column: 2;
+    grid-row: 6;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--con {
+    grid-column: 2;
+    grid-row: 7;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--loc {
+    grid-column: 2;
+    grid-row: 8;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left--faq {
+    grid-column: 2;
+    grid-row: 9;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__contact-email {
+    grid-column: 2;
+    grid-row: 10;
+    font-size: 12px;
+}
+.navbar-left__contact-mobile {
+    grid-column: 2;
+    grid-row: 11;
+    font-size: small;
+}
+    </style>
 </head>
 
 <body>
