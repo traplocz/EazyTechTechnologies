@@ -1,2 +1,0 @@
-EazyTechCss.css
-EazyTechHtml.html
