@@ -1,77 +1,121 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: rgb(164,160,160);
-    background-image: url(https://i.ibb.co/yh2CkrZ/comp-logo.jpg);
+    background-image: url(https://github.com/traplocz/EazyTechTechnologies/blob/master/public/images/comp_logo.jpg?raw=true);
     background-repeat: repeat-x;
-    font-family: arial;
     font-size: 16px;
+    font-family: arial;
+}
+
+.main-container {
     display: grid;
-    grid-template-columns: [left] 250px [middle] auto [right] 500px;
-    grid-template-rows: 20px 280px auto auto;
+    grid-template-columns: [left] auto [middle] 1fr [right] 500px;
+    grid-template-rows: 240px 1fr auto;
+    grid-gap: 50px;
 }
 
 .header-top {
+    grid-row: 1;
     grid-column: 2;
-    grid-row: 2;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .header-top--image1 {
-    margin-left: 30px;
+    width: 700px;
+    height: 85px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.header-top--image2 {
+    width: 760px;
+    height: 140px;
 }
 
 .main-middle {
-   grid-column: 2;
-   grid-row: 3;
-   display: grid;
-   grid-template-columns: auto auto auto;
-   grid-template-rows: auto auto auto auto;
-   column-gap: 50px;
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.main-middle__images {
-    grid-column: 2;
-    grid-row: 1;
-    justify-content: space-evenly;
+.main-middle--image1 {
+    width: 224px;
+    height: 181px;
+}
+
+.main-middle--image2 {
+    width: 224px;
+    height: 181px;
+}
+
+.main-middle--image3 {
+    width: 224px;
+    height: 181px;
 }
 
 .main-middle__about-text {
-    grid-column: 2;
-    grid-row: 2;
     background-color: rgb(255, 255, 204);
+    font-family: Arial, Helvetica, Geneva, Sans-serif;
+    font-size: 14px;
+    margin-top: 28px;
+    padding: 2px;
+}
+.main-middle__about-text--image1 {
+    width: 250px;
+    height:200px;
+    float: right;
+}
+.main-middle__about-text--p1 {
+    line-height: 1.5;
+}
+.main-middle__about-text--p2 {
+    line-height: 1.0;
+}
+.main-middle__about-text--p3 {
+    line-height: 1.0;
+    position: relative;
+    top: 10px;
+}
+.main-middle__about-text--p4 {
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+}
+.main-middle__about-text--p5 {
+    line-height: 2.0;
+    position: relative;
+    top: 30px;
 }
 
 .footer-bottom {
+    grid-row: 3;
     grid-column: 2;
-    grid-row: 4;
     text-align: center;
 }
 
 /* CSS Gradient provided by: https://cssgradient.io */
 .navbar-left {
-    grid-column: 1;
-    grid-row: 1;
-    display: inline-grid;
-    text-align: center;
-    grid-template-columns: [left] 20px [center] 150px [right] 20px;
-    grid-template-rows: 200px;
     row-gap: 3px;
-    justify-content: space-around;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    display: grid;
+    grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px;
+    grid-template-columns: 140px;
+    margin-left: 20px;;
 }
-
 .navbar-left a:hover {
     color: #0d0d0d;
     transition: box-shadow .1s;
     box-shadow: 0 0 10px;
     background:rgb(128, 128, 128);
 }
-
-.navbar-left--home {
-    grid-column: 2;
-    grid-row: 2;
+.navbar-left__home {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -79,10 +123,7 @@ body {
     border: #666666 solid 1px;
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--about {
-    grid-column: 2;
-    grid-row: 3;
+.navbar-left__about {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -91,10 +132,7 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--serv {
-    grid-column: 2;
-    grid-row: 4;
+.navbar-left__serv {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -103,10 +141,7 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--port {
-    grid-column: 2;
-    grid-row: 5;
+.navbar-left__port {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -115,10 +150,7 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--test {
-    grid-column: 2;
-    grid-row: 6;
+.navbar-left__test {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -127,10 +159,7 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--con {
-    grid-column: 2;
-    grid-row: 7;
+.navbar-left__con {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -139,10 +168,7 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--loc {
-    grid-column: 2;
-    grid-row: 8;
+.navbar-left__loc {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -151,10 +177,7 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
-.navbar-left--faq {
-    grid-column: 2;
-    grid-row: 9;
+.navbar-left__faq {
     color: #262626;
     text-decoration: none;
     font-weight: 550;
@@ -163,14 +186,9 @@ body {
     background: rgb(153,153,153);
     background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
-
 .navbar-left__contact-email {
-    grid-column: 2;
-    grid-row: 10;
-    font-size: 12px;
+    font-size: 10px;
 }
 .navbar-left__contact-mobile {
-    grid-column: 2;
-    grid-row: 11;
-    font-size: small;
+    font-size: 12px;
 }
