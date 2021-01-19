@@ -1,1 +1,1 @@
-https://traplocz.github.io/EazyTechTechnologies
+https://traplocz.github.io/EazyTechTechnologies/views/Home
