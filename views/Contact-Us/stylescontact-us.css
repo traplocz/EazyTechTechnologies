@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(164,160,160);
+    background-image: url(https://github.com/traplocz/EazyTechTechnologies/blob/master/public/images/comp_logo.jpg?raw=true);
+    background-repeat: repeat-x;
+    font-size: 16px;
+    font-family: arial;
+}
+
+/* The .main-container class relies on the Grid format settings */
+.main-container {
+    display: grid;
+    grid-template-columns: [left] auto [middle] 1fr [right] 500px;
+    grid-template-rows: 240px 1fr auto;
+    grid-gap: 50px;
+}
+
+/* The .main-middle is where individual content of each sub website page will layout */
+.main-middle {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-middle__image1 {
+    width: 224px;
+    height: 181px;
+}
+
+.main-middle__image2 {
+    width: 224px;
+    height: 181px;
+}
+
+.main-middle__image3 {
+    width: 224px;
+    height: 181px;
+}
+
+.main-middle__about-text {
+    background-color: rgb(255, 255, 204);
+    font-family: Arial, Helvetica, Geneva, Sans-serif;
+    font-size: 14px;
+    margin-top: 28px;
+    padding: 2px;
+}
+
+.main-middle__about-text__image1 {
+    width: 250px;
+    height:200px;
+    float: right;
+}
+
+.main-middle__about-text__p1 {
+    line-height: 1.5;
+}
+
+.main-middle__about-text__p2 {
+    line-height: 1.0;
+}
+
+.main-middle__about-text__p3 {
+    line-height: 1.0;
+    position: relative;
+    top: 10px;
+}
+
+.main-middle__about-text__p4 {
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+}
+
+.main-middle__about-text__p5 {
+    line-height: 2.0;
+    position: relative;
+    top: 30px;
+}
+
+.footer-bottom {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+
+/* Styles below carry-over to all sub website pages and don't have to be recoded. */
+
+.header-top {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 20px;
+}
+
+.header-top__image1 {
+    width: 700px;
+    height: 85px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.header-top__image2 {
+    width: 760px;
+    height: 140px;
+}
+
+/* CSS Gradient provided by: https://cssgradient.io */
+.navbar-left {
+    row-gap: 3px;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 1;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+}
+
+.navbar-left a:hover {
+    color: #0d0d0d;
+    transition: box-shadow .1s;
+    box-shadow: 0 0 10px;
+    background:rgb(128, 128, 128);
+}
+
+.navbar-left--text-align {
+    margin-top: 5px;
+}
+
+.navbar-left__home {
+    width: 140px;
+    height: 28px;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(128, 128, 128) !important;
+}
+
+.navbar-left__home:hover {
+    color: white !important;
+    box-shadow: none !important;
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%) !important;
+}
+
+.navbar-left__about {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__serv {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__port {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__test {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__con {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__loc {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__faq {
+    width: 140px;
+    height: 28px;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5px;
+    border: #666666 solid 1px;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
+}
+
+.navbar-left__contact-email {
+    font-size: 10px;
+}
+
+.navbar-left__contact-mobile {
+    font-size: 12px;
+    line-height: 4px;
+}
