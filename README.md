@@ -1,1 +1,1 @@
-https://traplocz.github.io/views/Home
+https://traplocz.github.io/views/index
