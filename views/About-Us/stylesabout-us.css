@@ -1,11 +1,3 @@
-/* The .main-container class relies on the Grid format settings */
-.main-container {
-    display: grid;
-    grid-template-columns: [left] auto [middle] 1fr [right] 500px;
-    grid-template-rows: 240px 1fr auto;
-    grid-gap: 50px;
-}
-
 /* The .main-middle is where indvidual content of each sub website page will layout */
 .main-middle {
     grid-row: 2;
@@ -31,39 +23,32 @@
     height: 181px;
 }
 
-.main-middle__about-text {
-    background-color: rgb(204,153,255);
+.main-middle__about-text-middle--align {
+    margin-top: -5px;
+}
+
+.main-middle__about-text-middle--space {
+    margin-top: 20px;
+}
+
+.main-middle__about-text-top {
+    background-color: rgb(255,204,153);
+    line-height: 1.5;
+    padding: 5px;
+    margin-bottom: 20px;
     font-family: Arial, Helvetica, Geneva, Sans-serif;
     font-size: 14px;
-    margin-top: 28px;
-    padding: 2px;
 }
-
-.main-middle__about-text__p1 {
+.main-middle__about-text-middle {
+    margin-top: 20px;
+    background-color: rgb(204,153,255);
     line-height: 1.5;
+    font-family: Arial, Helvetica, Geneva, Sans-serif;
+    font-size: 14px;
+    padding: 5px;
 }
 
-.main-middle__about-text__p2 {
-    line-height: 1.0;
-}
 
-.main-middle__about-text__p3 {
-    line-height: 1.0;
-    position: relative;
-    top: 10px;
-}
-
-.main-middle__about-text__p4 {
-    line-height: 1.5;
-    position: relative;
-    top: 20px;
-}
-
-.main-middle__about-text__p5 {
-    line-height: 2.0;
-    position: relative;
-    top: 30px;
-}
 
 /* Additional edited styles of stylesheetall.css file  */
 body {
@@ -71,3 +56,4 @@ body {
     background-repeat: repeat-x;
     height: 170px;
 }
+
