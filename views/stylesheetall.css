@@ -1,10 +1,16 @@
 body {
     background-color: rgb(164,160,160);
-    background-image: linear-gradient(rgb(6, 71, 12), rgb(1, 26, 3));
+    background-image: url(https://github.com/traplocz/EazyTechTechnologies/blob/master/public/images/comp_logo.jpg?raw=true);
     background-repeat: repeat-x;
-    height: 170px;
     font-size: 16px;
     font-family: arial;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: [left] auto [middle] 1fr [right] 500px;
+    grid-template-rows: 240px 1fr auto;
+    grid-gap: 50px;
 }
 
 .footer-bottom {
