@@ -73,17 +73,10 @@ body {
     font-weight: 550;
     border-radius: 5px;
     border: #666666 solid 1px;
-/* Hover link design code */
-    background: rgb(128, 128, 128) !important;
+    background: rgb(153,153,153);
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%);
 }
 
-/* Code below is located in individual css pages */
-
-/* .navbar-left__home:hover {
-    color: white !important;
-    box-shadow: none !important;
-    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%) !important;
-} */
 
 .navbar-left__about {
     width: 140px;

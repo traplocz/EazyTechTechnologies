@@ -62,3 +62,16 @@
     position: relative;
     top: 30px;
 }
+
+/* Additional edited styles of stylesheetall.css file  */
+body {
+    background-image: linear-gradient(rgb(6, 71, 12), rgb(1, 26, 3));
+    background-repeat: repeat-x;
+    height: 170px;
+}
+
+.navbar-left__port:hover {
+    color: white !important;
+    box-shadow: none !important;
+    background: linear-gradient(0deg, rgba(153,153,153,1) 10%, rgba(191,191,191,1) 50%, rgba(153,153,153,1) 90%) !important;
+}
