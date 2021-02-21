@@ -2,10 +2,6 @@
 .main-middle {
     grid-row: 2;
     grid-column: 2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .main-middle__image1 {
@@ -16,6 +12,8 @@
 .main-middle__image2 {
     width: 224px;
     height: 181px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .main-middle__image3 {
@@ -35,6 +33,7 @@
     width: 250px;
     height:200px;
     float: right;
+    margin-top: -10px;
 }
 
 .main-middle__about-text__p1 {
@@ -60,7 +59,7 @@
 .main-middle__about-text__p5 {
     line-height: 2.0;
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
 /* Additional edited styles of stylesheetall.css file  */

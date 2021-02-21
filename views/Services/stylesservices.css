@@ -104,6 +104,11 @@ h1 {
 
 .main-middle__midblock {
     background-color:rgb(202, 185, 27);
+    line-height: 25px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: -150px;
+    margin-right: 40px;
 }
 
 .main-middle__midblock__image {
@@ -116,7 +121,9 @@ h1 {
     font-size: 20px;
     margin: 0px;
 }
-.main-middle__midblock__p2
+.main-middle__midblock__p2 {
+    margin: 2px;
+}
 
 
 
