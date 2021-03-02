@@ -1,69 +1,278 @@
 /* The .main-middle is where indvidual content of each sub website page will layout */
+
 .main-middle {
     grid-row: 2;
     grid-column: 2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin-top: -20px;
 }
 
-.main-middle__image1 {
-    width: 224px;
-    height: 181px;
+li::marker {
+    content: "◦ ";
 }
 
-.main-middle__image2 {
-    width: 224px;
-    height: 181px;
-}
-
-.main-middle__image3 {
-    width: 224px;
-    height: 181px;
-}
-
-.main-middle__about-text {
-    background-color: rgb(255, 255, 204);
-    font-family: Arial, Helvetica, Geneva, Sans-serif;
+.main-middle__p1 {
+    color: rgb(45, 49, 45);
+    font-weight: 600;
     font-size: 14px;
-    margin-top: 28px;
-    padding: 2px;
 }
 
-.main-middle__about-text__image1 {
-    width: 250px;
-    height:200px;
-    float: right;
+.main-middle__table {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
 }
 
-.main-middle__about-text__p1 {
-    line-height: 1.5;
+.main-middle__table__tab1 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    color: rgb(14, 129, 206);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
 }
 
-.main-middle__about-text__p2 {
-    line-height: 1.0;
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab2 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    color: rgb(14, 129, 206);
+    font-weight: 700;
+    font-size: 18px;
 }
 
-.main-middle__about-text__p3 {
-    line-height: 1.0;
-    position: relative;
-    top: 10px;
+.main-middle__table__tab3 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    color: rgb(14, 129, 206);
+    font-weight: 700;
+    font-size: 18px;
 }
 
-.main-middle__about-text__p4 {
-    line-height: 1.5;
-    position: relative;
-    top: 20px;
+.main-middle__table__tab4 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
 }
 
-.main-middle__about-text__p5 {
-    line-height: 2.0;
-    position: relative;
-    top: 30px;
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab5 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab6 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab7 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab8 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab9 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab10 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab11 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab12 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab13 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab14 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab15 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab16 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab17 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab18 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab19 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab20 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab21 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab22 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab23 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab24 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab25 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab26 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab27 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab28 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 20px padding that styles padding for the whole table row above. */
+
+.main-middle__table__tab29 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.main-middle__table__tab30 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
 }
 
 /* Additional edited styles of stylesheetall.css file  */
+
 body {
     background-image: linear-gradient(rgb(6, 71, 12), rgb(1, 26, 3));
     background-repeat: repeat-x;
