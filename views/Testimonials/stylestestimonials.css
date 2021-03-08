@@ -14,45 +14,42 @@
     font-weight: 500;
 }
 
-.main-middle__images {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-
 .main-middle__image1 {
+    position: static;
     width: 224px;
     height: 181px;
     padding: 5px;
 }
 
 .main-middle__image2 {
+    position: relative;
     width: 224px;
     height: 181px;
     padding: 5px;
+    top: 190px;
+    left: -238px;
 }
 
 .main-middle__article {
     position: relative;
-    bottom: 375px;
+    top: -190px;
     left: 240px;
 }
 
 .main-middle__article__p1 {
     position: relative;
-    bottom: 375px;
+    top: -190px;
     left: 240px;
 }
 .main-middle__article__p2 {
     position: relative;
-    bottom: 375px;
+    top: -190px;
     left: 240px;
 }
 .main-middle__article__p3 {
     position: relative;
-    bottom: 375px;
+    top: -190px;
     left: 240px;
-    
 }
 
 /* Additional edited styles of stylesheetall.css file  */
