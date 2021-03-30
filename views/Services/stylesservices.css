@@ -14,7 +14,8 @@ h1 {
     font-weight: 100;
     grid-row: 1;
     grid-column: 1;
-    margin-top: -20px
+    margin-top: -20px;
+    position: absolute;
 }
 
 .main-middle__row1 {
@@ -23,6 +24,7 @@ h1 {
     grid-row: 2;
     grid-column: 1;
     margin-right: 200px;
+    position: relative;
 }
 
 .main-middle__row2 {
@@ -31,6 +33,7 @@ h1 {
     grid-column: 1;
     margin-top: 5px;
     margin-right: 200px;
+    position: relative;
 }
 
 /* Start of subgrid */
@@ -41,7 +44,6 @@ h1 {
     display: grid;
     grid-template-rows: 40px 50px 50px auto;
     grid-template-columns: auto auto;
-    
 }
 
 .main-middle__row3--image {
@@ -59,6 +61,7 @@ h1 {
     grid-column: 2;
     margin-left: 30px;
     font-style: italic;
+    position: relative;
 }
 
 .main-middle__row3__p2 {
@@ -66,12 +69,14 @@ h1 {
     grid-column: 2;
     margin-left: 30px;
     margin-right: 130px;
+    position: relative;
 }
 
 .main-middle__row3__p3 {
     grid-row: 3;
     grid-column: 2;
     margin-left: 30px;
+    position: relative;
 }
 
 .main-middle__row3__list {
@@ -80,6 +85,7 @@ h1 {
     margin-left: 30px;
     margin-top: 0px;
     list-style: none;
+    position: relative;
 }
 
 /* End of subgrid above */
@@ -91,6 +97,7 @@ h1 {
     margin-top: 5px;
     grid-row: 5;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block1--pair-div {
@@ -98,6 +105,7 @@ h1 {
     margin-top: 40px;
     grid-row: 5;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block1__p1 {
@@ -114,6 +122,7 @@ h1 {
     margin-top: -20px;
     grid-row: 5;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block1__image {
@@ -123,6 +132,7 @@ h1 {
     margin-right: 40px;
     grid-row: 5;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block2 {
@@ -134,6 +144,7 @@ h1 {
     margin-top: 10px;
     grid-row: 6;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block2__image {
@@ -142,6 +153,7 @@ h1 {
     height: 160px;
     grid-row: 6;
     grid-column: 1;
+    position: relative;
 }
 .main-middle__block2__p1 {
     color: rgb(11, 76, 161);
@@ -150,11 +162,13 @@ h1 {
     margin: 0px;
     grid-row: 6;
     grid-column: 1;
+    position: relative;
 }
 .main-middle__block2__p2 {
     margin-top: 0px;
     grid-row: 6;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block3 {
@@ -162,6 +176,7 @@ h1 {
     grid-column: 1;
     margin-right: 425px;
     margin-top: -20px;
+    position: relative;
 }
 
 .main-middle__block3__p1 {
@@ -179,6 +194,7 @@ h1 {
     background-color: rgb(179, 240, 200);
     margin-top: -20px;
     line-height: 25px;
+    position: relative;
 }
 
 .main-middle__block3__image1 {
@@ -187,6 +203,7 @@ h1 {
     margin-left: 388px;
     height: 167px;
     width: 200px;
+    position: relative;
 }
 
 .main-middle__block3__image2 {
@@ -195,12 +212,14 @@ h1 {
     grid-row: 7;
     grid-column: 1;
     margin-left: auto;
+    position: relative;
 }
 
 .main-middle__block4 {
     margin-top: -50px;
     grid-row: 8;
     grid-column: 1;
+    position: relative;
 }
 
 .main-middle__block4__p1 {
@@ -212,6 +231,7 @@ h1 {
     margin-right: 382px;
     font-size: 25px;
     z-index: 1;
+    position: relative;
 }
 
 .main-middle__block4--background-expand {
@@ -222,6 +242,7 @@ h1 {
     margin-top: -54px;
     position: relative;
     z-index: -1;
+    position: relative;
 }
 
 .main-middle__block4__p2 {
@@ -231,6 +252,7 @@ h1 {
     margin-top: -25px;
     margin-left: 175px;
     margin-right: 190px;
+    position: relative;
 }
 
 .main-middle__block4__image0 {
@@ -245,6 +267,7 @@ h1 {
     height: 164px;
     margin-left: 175px;
     margin-top: -10px;
+    position: relative;
 }
 
 .main-middle__block4__image2 {
@@ -276,11 +299,13 @@ h1 {
 .main-middle__block5__p2 {
     margin-top: -15px;
     color:black;
+    position: relative;
 }
 .main-middle__block5__image1 {
     width: 416px;
     height: 213px;
     margin-top: 5px;
+    position: relative;
 }
 .main-middle__block5__image2 {
     width: 206px;
@@ -292,6 +317,7 @@ h1 {
     margin-top: 5px;
     margin-right: -162px;
     float: right;
+    position: relative;
 }
 
 .main-middle__block6 {
@@ -299,6 +325,7 @@ h1 {
     grid-column: 1;
     background-color: rgb(35, 100, 240);
     margin-top: 10px;
+    position: relative;
 }
 
 .main-middle__block6__p1 {
@@ -308,6 +335,7 @@ h1 {
 .main-middle__block6__p2 {
     color: black;
     margin-top: -10px;
+    position: relative;
 }
 
 /* Additional edited styles of stylesheetall.css file  */

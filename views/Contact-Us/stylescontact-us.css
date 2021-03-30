@@ -6,61 +6,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+} 
 
-.main-middle__image1 {
-    width: 224px;
-    height: 181px;
-}
-
-.main-middle__image2 {
-    width: 224px;
-    height: 181px;
-}
-
-.main-middle__image3 {
-    width: 224px;
-    height: 181px;
-}
-
-.main-middle__about-text {
-    background-color: rgb(255, 255, 204);
-    font-family: Arial, Helvetica, Geneva, Sans-serif;
-    font-size: 14px;
-    margin-top: 28px;
-    padding: 2px;
-}
-
-.main-middle__about-text__image1 {
-    width: 250px;
-    height:200px;
-    float: right;
-}
-
-.main-middle__about-text__p1 {
-    line-height: 1.5;
-}
-
-.main-middle__about-text__p2 {
-    line-height: 1.0;
-}
-
-.main-middle__about-text__p3 {
-    line-height: 1.0;
-    position: relative;
-    top: 10px;
-}
-
-.main-middle__about-text__p4 {
-    line-height: 1.5;
-    position: relative;
-    top: 20px;
-}
-
-.main-middle__about-text__p5 {
-    line-height: 2.0;
-    position: relative;
-    top: 30px;
+h1 {
+    text: white;
 }
 
 /* Additional edited styles of stylesheetall.css file  */
